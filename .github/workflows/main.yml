@@ -12,5 +12,5 @@ jobs:
         uses: elihwyma/nightly-updater@v1
         with:
           message-title: Wake up Babe
-          webhook: ${{ secrets.WEBOOK }} 
+          webhook: ${{ secrets.WEBHOOK }} 
       
