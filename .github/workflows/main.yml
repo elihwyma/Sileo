@@ -9,8 +9,5 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Wakeup babe
-        uses: muinmomin/webhook-action@v1.0.0
-        with:
-          url: ${{ secrets.WEBHOOK }} 
-          data: '{"content": "", "embeds": [{"url": "https://cdn.discordapp.com/attachments/756865973394472960/877340517178957834/Screen_Shot_2021-08-17_at_7.57.46_PM.png"}]}'
-      
+        run: |
+          curl -H "Content-Type: application/json" -d '{"username": "Nightly Bot", "content": "https://cdn.discordapp.com/attachments/756865973394472960/877340517178957834/Screen_Shot_2021-08-17_at_7.57.46_PM.png"}' "${{ secrets.WEBHOOK }}"
