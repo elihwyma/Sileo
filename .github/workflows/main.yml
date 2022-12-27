@@ -26,7 +26,6 @@ jobs:
           DEVELOPMENT_CERTIFICATE: ${{ secrets.DEVELOPMENT_CERTIFICATE }}
           DISTRIBUTION_CERTIFICATE: ${{ secrets.DISTRIBUTION_CERTIFICATE }}
           DISTRIBUTION_PASSWORD: ${{ secrets.DISTRIBUTION_PASSWORD }}
-          KEYCHAIN_PASSWORD: ${{ secrets.KEYCHAIN_PASSWORD }}
         run: |
           security create-keychain -p "" build.keychain
           security list-keychains -s build.keychain
