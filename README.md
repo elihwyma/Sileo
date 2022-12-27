@@ -1,5 +1,5 @@
 # Sileo
-[![Build](https://github.com/Sileo/Sileo/actions/workflows/main.yml/badge.svg)](https://github.com/Sileo/Sileo/actions/workflows/main.yml)
+[![Build](https://github.com/elihwyma/elihwyma/actions/workflows/main.yml/badge.svg)](https://github.com/elihwyma/elihwyma/actions/workflows/main.yml)
 
 A modern APT package manager frontend
 
@@ -39,4 +39,4 @@ If you have questions, ask in the Sileo Discord server.
 
 #
 
-Sileo Team 2018 - 2022
+Sileo Team 2018 - 2023
