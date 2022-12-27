@@ -1,5 +1,5 @@
 # Sileo
-[![Build](https://github.com/elihwyma/elihwyma/actions/workflows/main.yml/badge.svg)](https://github.com/elihwyma/elihwyma/actions/workflows/main.yml)
+[![Build](https://github.com/elihwyma/sileo/actions/workflows/main.yml/badge.svg)](https://github.com/elihwyma/elihwyma/sileo/workflows/main.yml)
 
 A modern APT package manager frontend
 
